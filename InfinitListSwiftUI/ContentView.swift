@@ -16,11 +16,10 @@ struct ContentView: View {
                 ForEach(userViewModel.users, id: \.id) { user in
                     UserRow(user: user)
                 }
-                LoaderView(isFailed: $userViewModel.isRequestFailed)
+                LoaderView(isFailed: userViewModel.isRequestFailed)
                     .onAppear(perform: fetchData)
                     .onTapGesture(perform: onTapLoadView)
             }
-            .onAppear(perform: fetchData)
             .navigationTitle("GitHub Users")
             .navigationBarTitleDisplayMode(.automatic)
         }
