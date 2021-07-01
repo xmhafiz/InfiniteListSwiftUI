@@ -30,6 +30,7 @@
 		86D45B0626878FF50062EA20 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
 		86D45B082687925F0062EA20 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		86D45B0C2688061A0062EA20 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		86F96007268D675000384AA3 /* InfinitListSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfinitListSwiftUI.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		86D45AF626878FD90062EA20 /* InfinitListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				86F96007268D675000384AA3 /* InfinitListSwiftUI.entitlements */,
 				86D45AF726878FD90062EA20 /* InfinitListSwiftUIApp.swift */,
 				86D45AF926878FD90062EA20 /* ContentView.swift */,
 				86D45B0626878FF50062EA20 /* UserRow.swift */,
@@ -287,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InfinitListSwiftUI/InfinitListSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"InfinitListSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = ZM68Y4E2HM;
@@ -299,6 +302,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.InfinitListSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InfinitListSwiftUI/InfinitListSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"InfinitListSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = ZM68Y4E2HM;
@@ -321,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.InfinitListSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

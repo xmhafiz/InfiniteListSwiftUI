@@ -23,6 +23,7 @@ struct ContentView: View {
             .navigationTitle("GitHub Users")
             .navigationBarTitleDisplayMode(.automatic)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     private func fetchData() {
